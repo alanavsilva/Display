@@ -2,8 +2,8 @@
     position: fixed;
     left: 0%;
     top: 0%;
-    background-color: rgb(65, 0, 0);
-    color: aliceblue;
+    background-color: rgb(252, 248, 233);
+    color: rgb(43, 0, 9);
     border-radius: 20px;
     display: block;
     width: 100%;
@@ -14,25 +14,26 @@
 .explicacao{
     margin-top: 100px;
     text-align: justify;
-    background-color: rgb(65, 0, 0);
-    color: aliceblue;
+    background-color: rgb(252, 248, 233);
+    color: rgb(43, 0, 9);
     border-radius: 20px;
 }
    
+p{
+    margin-left: 15px;
+    margin-right: 15px;
+}
 
 body {
-
+    background-color: rgb(43, 0, 9);
     margin: 0%;
     font-family: 'Times New Roman', Times, serif;
 }
 
-
-
-
-
-
-
-
 .block {
     display: block;
+    text-align: justify;
+    background-color: rgb(252, 248, 233);
+    color: rgb(43, 0, 9);
+    border-radius: 20px;
 }
