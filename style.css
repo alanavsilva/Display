@@ -36,3 +36,9 @@ body {
 .block {
     display: block;
 }
+
+.display {
+    font-size: 25px;
+    margin-bottom: 0%;
+    margin-left: 15px;
+}
