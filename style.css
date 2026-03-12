@@ -1,24 +1,27 @@
 .fixo {
     position: fixed;
-    left: 50%;
+    left: 0%;
     top: 0%;
     background-color: rgb(65, 0, 0);
     color: aliceblue;
     border-radius: 20px;
     display: block;
+    width: 100%;
+    text-align: center;
+    
 }
 
 .explicacao{
-    position: sticky;
+    margin-top: 100px;
     text-align: justify;
     background-color: rgb(65, 0, 0);
     color: aliceblue;
     border-radius: 20px;
-    margin-top: 100px;
 }
    
 
 body {
+
     margin: 0%;
     font-family: 'Times New Roman', Times, serif;
 }
