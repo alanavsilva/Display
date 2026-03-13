@@ -79,7 +79,6 @@ body {
 
 
 .table{
-    margin-top: 100px;
     text-align: justify;
     background-color: rgb(252, 248, 233);
     color: rgb(43, 0, 9);
@@ -94,4 +93,34 @@ body {
     background-color: rgb(252, 248, 233);
     color: rgb(43, 0, 9);
     border-radius: 20px;
+}
+
+.exemplo_table{
+    display: table;
+    background-color: rgb(252, 248, 233);
+    color: rgb(43, 0, 9);
+    border-radius: 20px;  
+}
+.inline_flex{
+    text-align: justify;
+    background-color: rgb(252, 248, 233);
+    color: rgb(43, 0, 9);
+    border-radius: 20px;  
+}
+
+.titulo_inline_flex{
+    font-size: 25px;
+    margin-bottom: 0%;
+    margin-left: 15px;
+    text-align: justify;
+    background-color: rgb(252, 248, 233);
+    color: rgb(43, 0, 9);
+    border-radius: 20px;
+}
+
+.exemplo_inline_flex{
+    display: table;
+    background-color: rgb(252, 248, 233);
+    color: rgb(43, 0, 9);
+    border-radius: 20px;  
 }
