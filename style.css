@@ -43,3 +43,55 @@ body {
     color: rgb(43, 0, 9);
     border-radius: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.table{
+    margin-top: 100px;
+    text-align: justify;
+    background-color: rgb(252, 248, 233);
+    color: rgb(43, 0, 9);
+    border-radius: 20px;  
+}
+
+.titulo_table{
+    font-size: 25px;
+    margin-bottom: 0%;
+    margin-left: 15px;
+    text-align: justify;
+    background-color: rgb(252, 248, 233);
+    color: rgb(43, 0, 9);
+    border-radius: 20px;
+}
