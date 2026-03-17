@@ -53,7 +53,7 @@ body {
 
 .display_example {
     margin: 20px;
-    
+
 }
 
 .flow-root_application {
@@ -86,4 +86,15 @@ body {
     width: fit-content;
     margin: 0 auto;
     display: inline-flex;
+}
+
+.row {
+    display: table-row;
+    background-color:rgb(164, 203, 215); 
+}
+
+.col {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #ccc;
 }
