@@ -26,7 +26,7 @@ p{
 body {
     background-color: rgb(43, 0, 9);
     margin: 0%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .block {
@@ -149,21 +149,39 @@ alana
 
 
 .display-section{
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.display_text{
-    text-align: justify;
-    background-color: rgb(252, 248, 233);
-    color: rgb(43, 0, 9);
-    border-radius: 20px;  
-}
-
-.display-example{
-    background-color: rgb(252, 248, 233);
+    margin: 35px;
 }
 
 .titulo_display{
     font-size: 25px;
+    margin-top: 0;
+}
+
+.display_text{
+    background-color: rgb(252, 248, 233);
+    color: rgb(43, 0, 9);
+    border-radius: 20px;  
+    padding: 1px;
+}
+
+.display_example{
+    margin: 20px;
+    border-radius: 20px;
+
+}
+
+.flow-root_application {
+    border-radius: 10px;
+    background-color: rgb(252, 248, 233);
+    width: fit-content;
+    margin: 0 auto;
+    display: flow-root;
+}
+
+.box {
+    float: left;
+    padding: 20px;
+    background: rgb(164, 203, 215);
+    margin: 10px;
+    border-radius: 10px;
 }
