@@ -22,11 +22,12 @@
 
         <div class="display-section">
             <div class="display_text">
-                    <div class="titulo_display">
-                    <p>CONCEITO</p>
-                </div>
+                <div class="titulo_display">
+                <p class="titulo_display"> Conceito </p>
+                <p>Conceito</p>
 
-                <br> A propriedade display é a propriedade mais importante do CSS para controlar o layout, o valor
+                </div>
+                <p> A propriedade display é a propriedade mais importante do CSS para controlar o layout, o valor
                 padrão pode
                 variar de elemento para elemento, de modo geral o valor padrão é display:block ou display:inline. Outra
                 característica dessa propriedade é a facilidade para criar layouts responsivos, que são facilmente
@@ -36,88 +37,95 @@
                 ele é sempre iniciado em uma nova linha. Um exemplo são os títulos, divs e parágrafos.Já os elementos em
                 linha ou inline ocupam apenas o espaço necessário para exibir o seu conteúdo. Por
                 exemplo: imagens, links, entre outros.A propriedade display permite modificar a forma como esses
-                elementos são renderizados. </br>
+                elementos são renderizados. </p>
                 </p>
             </div>
         </div>
 
 
-        <div class="block">
-            <div class="display">
-                <h2>Display block </h2>
+
+        <div class="display-section">
+            <div class="display_text">
+                <p class="titulo_display"> Display: block </p>
                 <p>Um elemento com display: block é exibido como um bloco, ocupando toda a largura disponível.
                     Isso significa que ele começa em uma nova linha e "empurra" os outros elementos para cima e para
                     baixo,
                     forçando uma quebra de linha antes e depois de si.</p>
+            </div>
+        </div>
+
+
+
         <div class="display-section">
-            <div class="display"> 
-            <p class="titulo_display">Display: block </p>
-            <p>Um elemento com display: block é exibido como um bloco, ocupando toda a largura disponível.
-                Isso significa que ele começa em uma nova linha e "empurra" os outros elementos para cima e para baixo,
-                forçando uma quebra de linha antes e depois de si.</p>
+            <div class="display">
+                <p class="titulo_display">Display: inline </p>
+                <p>O elemento gera uma ou mais caixas de elemento em linha que não geram quebras de linha antes
+                    ou depois de si mesmas.
+                    No fluxo normal, o próximo elemento estará na mesma linha se houver espaço.</p>
             </div>
         </div>
 
         <div class="display-section">
-            <div class="display"> 
-            <p class="titulo_display">Display: inline </p>
-            <p>O elemento gera uma ou mais caixas de elemento em linha que não geram quebras de linha antes ou depois de si mesmas. 
-                No fluxo normal, o próximo elemento estará na mesma linha se houver espaço.</p>
+            <div class="display">
+                <p class="titulo_display">Display: inline-block </p>
+                <p>Elementos com display INLINE-BLOCK vão se manter posicionados um ao lado do outro,
+                    sem quebras de linhas (comportamento herdado do inline), mas te dão a liberdade de atribuir
+                    a eles width, height,
+                    margins e paddings (comportamento herdado do block).
+                </p>
             </div>
         </div>
 
         <div class="display-section">
-            <div class="display"> 
-            <p class="titulo_display">Display: inline-block </p>
-            <p>Elementos com display INLINE-BLOCK vão se manter posicionados um ao lado do outro, 
-                sem quebras de linhas (comportamento herdado do inline), mas te dão a liberdade de atribuir a eles width, height, 
-                margins e paddings (comportamento herdado do block).
-            </p>
+            <div class="display">
+                <p class="titulo_display">Display: flex</p>
+                <p>Atalho para as propriedades flex-grow, flex-shrink e flex-basis. Geralmente você verá a
+                    propriedade flex nos flex itens ao invés de cada um dos valores separados.
+                    Para melhor consistência entre os browsers, é recomendado utilizar a propriedade flex ao
+                    invés de cada propriedade separada.
+                </p>
             </div>
         </div>
 
         <div class="display-section">
-            <div class="display"> 
-            <p class="titulo_display">Display: flex</p>
-            <p>Atalho para as propriedades flex-grow, flex-shrink e flex-basis. Geralmente você verá a propriedade flex nos flex itens ao invés de cada um dos valores separados.
-                Para melhor consistência entre os browsers, é recomendado utilizar a propriedade flex ao invés de cada propriedade separada.
-            </p>
+            <div class="display">
+                <p class="titulo_display">Display: inline-flex</p>
+                <p>É uma propriedade CSS que define um elemento como um contêiner flexível, mas com
+                    comportamento "embutido" (inline).
+                    Diferente do display: flex, que ocupa toda a largura (bloco), o inline-flex` ajusta a
+                    largura ao seu conteúdo e permite que outros elementos fiquem ao seu lado.
+                </p>
             </div>
         </div>
 
         <div class="display-section">
-            <div class="display"> 
-            <p class="titulo_display">Display: inline-flex</p>
-            <p>É uma propriedade CSS que define um elemento como um contêiner flexível, mas com comportamento "embutido" (inline). 
-                Diferente do display: flex, que ocupa toda a largura (bloco), o inline-flex` ajusta a largura ao seu conteúdo e permite que outros elementos fiquem ao seu lado.
-            </p>
+            <div class="display">
+                <p class="titulo_display">Display: grid</p>
+                <p>Atalho geral para definir o grid: grid-template-rows, grid-template-columns,
+                    grid-template-areas, grid-auto-rows, grid-auto-columns e grid-auto-flow</p>
             </div>
         </div>
 
         <div class="display-section">
-            <div class="display"> 
-            <p class="titulo_display">Display: grid</p>
-            <p>Atalho geral para definir o grid: grid-template-rows, grid-template-columns, grid-template-areas, grid-auto-rows, grid-auto-columns e grid-auto-flow</p>
+            <div class="display">
+                <p class="titulo_display">Display: inline-grid</p>
+                <p>É um valor da propriedade display que define um elemento como um contêiner de grade (Grid
+                    Layout),
+                    mas faz com que ele se comporte como um elemento inline (linha) em vez de um bloco,
+                    ocupando apenas o espaço necessário e permitindo que outros elementos fiquem ao seu lado.
+                </p>
             </div>
         </div>
 
         <div class="display-section">
-            <div class="display"> 
-            <p class="titulo_display">Display: inline-grid</p>
-            <p>É um valor da propriedade display que define um elemento como um contêiner de grade (Grid Layout),
-                 mas faz com que ele se comporte como um elemento inline (linha) em vez de um bloco, 
-                 ocupando apenas o espaço necessário e permitindo que outros elementos fiquem ao seu lado.
-            </p>
-            </div>
-        </div>
-
-        <div class="display-section">
-            <div class="display"> 
-            <p class="titulo_display">Display: flow-root</p>
-            <p>O valor faz com que o elemento gere uma caixa de elemento de bloco que estabelece um novo contexto de formatação de bloco, 
-                definindo onde se encontra a raiz da formatação, ou seja, o elemento passa a controlar melhor o comportamento dos elementos internos, 
-                evita o colapso de margens, floats internos saindo do elemento e externos invadindo.
-            </p>
+            <div class="display">
+                <p class="titulo_display">Display: flow-root</p>
+                <p>O valor faz com que o elemento gere uma caixa de elemento de bloco que estabelece um novo
+                    contexto de formatação de bloco,
+                    definindo onde se encontra a raiz da formatação, ou seja, o elemento passa a controlar
+                    melhor o comportamento dos elementos internos,
+                    evita o colapso de margens, floats internos saindo do elemento e externos invadindo.
+                </p>
             </div>
         </div>
 
@@ -129,9 +137,11 @@
 
                 <p class="titulo_display"> Display: table </p>
 
-                <p>É uma propriedade que faz com que elementos do HTML como as div, se comportem como tabelas, de modo
+                <p>É uma propriedade que faz com que elementos do HTML como as div, se comportem como tabelas,
+                    de modo
                     que
-                    permita o alinhamento vertical e de elementos com alturas dinâmicas, fazendo com que as colunas
+                    permita o alinhamento vertical e de elementos com alturas dinâmicas, fazendo com que as
+                    colunas
                     tenham a
                     mesma altura e que sejam adaptáveis ao conteúdo colocado.
                 </p>
@@ -154,9 +164,11 @@
 
                 <p class="titulo_display"> Display: inline-flex </p>
 
-                <p>É uma propriedade CSS que define um elemento como um contêiner flexível, mas com comportamento
+                <p>É uma propriedade CSS que define um elemento como um contêiner flexível, mas com
+                    comportamento
                     "embutido"
-                    (inline). Diferente do display: flex, que ocupa toda a largura (bloco), o inline-flex` ajusta a
+                    (inline). Diferente do display: flex, que ocupa toda a largura (bloco), o inline-flex`
+                    ajusta a
                     largura
                     ao seu conteúdo e permite que outros elementos fiquem ao seu lado.
                 </p>
@@ -178,9 +190,11 @@
             <div class="display_text">
                 <p class="titulo_display"> Display: inline-grid </p>
 
-                <p>É um valor da propriedade display que define um elemento como um contêiner de grade (Grid Layout),
+                <p>É um valor da propriedade display que define um elemento como um contêiner de grade (Grid
+                    Layout),
                     mas
-                    faz com que ele se comporte como um elemento inline (linha) em vez de um bloco, ocupando apenas o
+                    faz com que ele se comporte como um elemento inline (linha) em vez de um bloco, ocupando
+                    apenas o
                     espaço
                     necessário e permitindo que outros elementos fiquem ao seu lado.
 
@@ -224,7 +238,6 @@
 
         </div>
 
-        </div>
 
         <div class="display-section">
 
@@ -248,10 +261,13 @@
             <div class="display_text">
 
                 <p class="titulo_display"> Display: block flex</p>
-                <p>Muitas pessoas podem pensar que o “display:block flex;” é contraditório, porém ele realmente existe.
+                <p>Muitas pessoas podem pensar que o “display:block flex;” é contraditório, porém ele realmente
+                    existe.
                     O
-                    display funciona de modo que, quando você coloca apenas um valor dentro dele, ele controla apenas o
-                    elemento/contêiner pai, porém quando se coloca um segundo valor, ele está controlando os elementos
+                    display funciona de modo que, quando você coloca apenas um valor dentro dele, ele controla
+                    apenas o
+                    elemento/contêiner pai, porém quando se coloca um segundo valor, ele está controlando os
+                    elementos
                     filhos (elementos de dentro do elemento pai). o que faz com que o elemento pai se comporte como
                     block
                     (um embaixo do outro) e os elementos filhos como flex (um alo lado do outro).</p>
@@ -269,9 +285,11 @@
             <div class="display_text">
 
                 <p class="titulo_display"> Display: block grid</p>
-                <p>O “display:block grid;” segue a mesma lógica do “display:block flex;”, porém ao invés dos elementos
+                <p>O “display:block grid;” segue a mesma lógica do “display:block flex;”, porém ao invés dos
+                    elementos
                     filhos se
-                    comportarem como flex, eles irão se comportar como grid podendo definir colunas e linhas para esses
+                    comportarem como flex, eles irão se comportar como grid podendo definir colunas e linhas para
+                    esses
                     elementos
                     filhos/internos.</p>
 
@@ -288,7 +306,8 @@
             <div class="display_text">
 
                 <p class="titulo_display"> Display: block flow-root</p>
-                <p>O “display:block flow-root;” também segue a mesma linha de raciocínio do “display:block flow;”, logo,
+                <p>O “display:block flow-root;” também segue a mesma linha de raciocínio do “display:block flow;”,
+                    logo,
                     mantém a
                     função block para o elemento pai, e cria um contexto de formatação de bloco para os elementos
                     filhos.</p>
