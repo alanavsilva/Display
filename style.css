@@ -53,7 +53,10 @@ body {
 
 .display_example {
     margin: 20px;
+}
 
+.display_example h4{
+    color: rgb(252, 248, 233);
 }
 
 .flow-root_application {
@@ -65,7 +68,6 @@ body {
 }
 
 .box {
-    float: left;
     padding: 20px;
     background: rgb(164, 203, 215);
     margin: 10px;
@@ -116,4 +118,35 @@ body {
     grid-template-columns: auto auto;
     gap: 10px;
 
+}
+
+.block_flow_application{
+    padding: 1px;
+    border-radius: 10px;
+    background-color: rgb(252, 248, 233);
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 3px;
+    display: block flow;
+}
+
+.block_flex_application{
+    padding: 1px;
+    border-radius: 10px;
+    background-color: rgb(252, 248, 233);
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 3px;
+    display: block flex;
+}
+
+.block_grid_application{
+    padding: 1px;
+    border-radius: 10px;
+    background-color: rgb(252, 248, 233);
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 3px;
+    display: block grid;
+    grid-template-columns: repeat(2, 2fr);
 }

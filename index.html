@@ -119,19 +119,6 @@
             </div>
         </div>
 
-        <div class="display-section">
-            <div class="display">
-                <p class="titulo_display">Display: flow-root</p>
-                <p>O valor faz com que o elemento gere uma caixa de elemento de bloco que estabelece um novo
-                    contexto de formatação de bloco,
-                    definindo onde se encontra a raiz da formatação, ou seja, o elemento passa a controlar
-                    melhor o comportamento dos elementos internos,
-                    evita o colapso de margens, floats internos saindo do elemento e externos invadindo.
-                </p>
-            </div>
-        </div>
-
-
 
         <div class="display-section">
 
@@ -307,115 +294,175 @@
 
         <div class="display-section">
 
-            <div class="display_text">
+                    <div class="display_text">
 
-                <p class="titulo_display"> Display: flow-root</p>
-                <p>O valor faz com que o elemento gere uma caixa de elemento de bloco que estabelece um novo
-                    contexto de formatação de bloco, definindo onde se encontra a raiz da formatação, ou seja,
-                    o elemento passa a controlar melhor o comportamento dos elementos internos, evita o colapso
-                    de margens, floats internos saindo do elemento e externos invadindo.</p>
+                        <p class="titulo_display"> Display: flow-root</p>
+                        <p>O valor faz com que o elemento gere uma caixa de elemento de bloco que estabelece um novo
+                            contexto de formatação de bloco, definindo onde se encontra a raiz da formatação, ou seja,
+                            o elemento passa a controlar melhor o comportamento dos elementos internos, evita o colapso
+                            de margens, floats internos saindo do elemento e externos invadindo.</p>
 
-            </div>
+                    </div>
 
-            <div class="display_example">
+                    <div class="display_example">
 
-                <div class="flow-root_application">
-                    <div class="box">Elemento 1</div>
-                    <div class="box">Elemento 1</div>
-                    <div class="box">Elemento 1</div>
+                        <div class="flow-root_application">
+                            <div class="box">Elemento 1</div>
+                            <div class="box">Elemento 2</div>
+                            <div class="box">Elemento 3</div>
+                        </div>
+                        <div class="image_code">
+                            <h4>HTML</h4>
+                            <img src="assets/flow-root_html.png" alt="code HTML">
+                        </div>
+                        <div class="image_code">
+                            <h4>CSS</h4>
+                            <img src="assets/flow-root_css.png" alt="code CSS">
+                        </div>
+                    </div>
+
+
                 </div>
 
-            </div>
 
+                <div class="display-section">
 
-        </div>
+                    <div class="display_text">
 
+                        <p class="titulo_display"> Display: block flow</p>
+                        <p>O elemento funciona basicamente como um block, ocupando toda a largura da tela e colocando os
+                            elementos um abaixo do outro, e o flow apenas certifica que os elementos sigam o fluxo
+                            natural
+                            do css, ou seja, um embaixo do outro.</p>
 
-        <div class="display-section">
+                    </div>
 
-            <div class="display_text">
+                    <div class="display_example">
+                        
+                        <div class="block_flow_application">
+                            <div class="box">Elemento 1</div>
+                            <div class="box">Elemento 2</div>
+                        </div>
+                        <div class="block_flow_application">
+                            <div class="box">Elemento 1</div>
+                            <div class="box">Elemento 2</div>
+                        </div>
 
-                <p class="titulo_display"> Display: block flow</p>
-                <p>O elemento funciona basicamente como um block, ocupando toda a largura da tela e colocando os
-                    elementos um abaixo do outro, e o flow apenas certifica que os elementos sigam o fluxo
-                    natural
-                    do css, ou seja, um embaixo do outro.</p>
+                        <div>
+                            <div class="image_code">
+                                <h4>HTML</h4>
+                                <img src="assets/block_flow_html.png" alt="code HTML">
+                            </div>
+                            <div class="image_code">
+                                <h4>CSS</h4>
+                                <img src="assets/block_flow_css.png" alt="code CSS">
+                            </div>    
+                        </div>
+                        
+                    </div>
 
-            </div>
+                </div>
 
-            <div class="display_example">
-                <img src="" alt="block flow code">
-            </div>
+                <div class="display-section">
 
-        </div>
+                    <div class="display_text">
 
-        <div class="display-section">
+                        <p class="titulo_display"> Display: block flex</p>
+                        <p>Muitas pessoas podem pensar que o “display:block flex;” é contraditório, porém ele realmente
+                            existe.
+                            O
+                            display funciona de modo que, quando você coloca apenas um valor dentro dele, ele controla
+                            apenas o
+                            elemento/contêiner pai, porém quando se coloca um segundo valor, ele está controlando os
+                            elementos
+                            filhos (elementos de dentro do elemento pai). o que faz com que o elemento pai se comporte
+                            como
+                            block
+                            (um embaixo do outro) e os elementos filhos como flex (um alo lado do outro).</p>
 
-            <div class="display_text">
+                    </div>
 
-                <p class="titulo_display"> Display: block flex</p>
-                <p>Muitas pessoas podem pensar que o “display:block flex;” é contraditório, porém ele realmente
-                    existe.
-                    O
-                    display funciona de modo que, quando você coloca apenas um valor dentro dele, ele controla
-                    apenas o
-                    elemento/contêiner pai, porém quando se coloca um segundo valor, ele está controlando os
-                    elementos
-                    filhos (elementos de dentro do elemento pai). o que faz com que o elemento pai se comporte
-                    como
-                    block
-                    (um embaixo do outro) e os elementos filhos como flex (um alo lado do outro).</p>
+                    <div class="display_example">
+                        <div class="block_flex_application">
+                            <div class="box">Elemento 1</div>
+                            <div class="box">Elemento 2</div>
+                        </div>
+                        <div class="block_flex_application">
+                            <div class="box">Elemento 1</div>
+                            <div class="box">Elemento 2</div>
+                        </div>
+                        <div class="image_code">
+                            <h4>HTML</h4>
+                            <img src="assets/block_flow_html.png" alt="code HTML">
+                        </div>
+                        <div class="image_code">
+                            <h4>CSS</h4>
+                            <img src="assets/block_flow_css.png" alt="code CSS">
+                        </div>
+                    </div>
+                </div>
 
-            </div>
+                <div class="display-section">
 
-            <div class="display_example">
-                <img src="" alt="block flex code">
-            </div>
+                    <div class="display_text">
 
-        </div>
+                        <p class="titulo_display"> Display: block grid</p>
+                        <p>O “display:block grid;” segue a mesma lógica do “display:block flex;”, porém ao invés dos
+                            elementos
+                            filhos se
+                            comportarem como flex, eles irão se comportar como grid podendo definir colunas e linhas
+                            para
+                            esses
+                            elementos
+                            filhos/internos.</p>
 
-        <div class="display-section">
+                    </div>
 
-            <div class="display_text">
+                    <div class="display_example">
+                        <div class="block_grid_application">
+                            <div class="box">Elemento 1</div>
+                            <div class="box">Elemento 2</div>
+                            <div class="box">Elemento 3</div>
+                            <div class="box">Elemento 4</div>
+                        </div>
+                        <div class="block_grid_application">
+                            <div class="box">Elemento 1</div>
+                            <div class="box">Elemento 2</div>
+                            <div class="box">Elemento 3</div>
+                            <div class="box">Elemento 4</div>
+                        </div>
+                        <div class="image_code">
+                            <h4>HTML</h4>
+                            <img src="assets/block_grid_html.png" alt="code HTML">
+                        </div>
+                        <div class="image_code">
+                            <h4>CSS</h4>
+                            <img src="assets/block_grid_css.png" alt="code CSS">
+                        </div>
+                    </div>
 
-                <p class="titulo_display"> Display: block grid</p>
-                <p>O “display:block grid;” segue a mesma lógica do “display:block flex;”, porém ao invés dos
-                    elementos
-                    filhos se
-                    comportarem como flex, eles irão se comportar como grid podendo definir colunas e linhas
-                    para
-                    esses
-                    elementos
-                    filhos/internos.</p>
+                </div>
 
-            </div>
+                <div class="display-section">
 
-            <div class="display_example">
-                <img src="" alt="block grid code">
-            </div>
+                    <div class="display_text">
 
-        </div>
+                        <p class="titulo_display"> Display: block flow-root</p>
+                        <p>O “display:block flow-root;” também segue a mesma linha de raciocínio do “display:block
+                            flow;”,
+                            logo,
+                            mantém a
+                            função block para o elemento pai, e cria um contexto de formatação de bloco para os
+                            elementos
+                            filhos.</p>
 
-        <div class="display-section">
+                    </div>
 
-            <div class="display_text">
+                    <div class="display_example">
+                        <img src="" alt="block flow-root code">
+                    </div>
 
-                <p class="titulo_display"> Display: block flow-root</p>
-                <p>O “display:block flow-root;” também segue a mesma linha de raciocínio do “display:block
-                    flow;”,
-                    logo,
-                    mantém a
-                    função block para o elemento pai, e cria um contexto de formatação de bloco para os
-                    elementos
-                    filhos.</p>
-
-            </div>
-
-            <div class="display_example">
-                <img src="" alt="block flow-root code">
-            </div>
-
-        </div>
+                </div>
 
 
         <div class="display-section">
