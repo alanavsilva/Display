@@ -4,11 +4,10 @@
     top: 0%;
     background-color: rgb(252, 248, 233);
     color: rgb(43, 0, 9);
-    border-radius: 20px;
     display: block;
     width: 100%;
     text-align: center;
-    
+    border-bottom: 2px solid rgb(43, 0, 9);
 }
 
 .explicacao{
@@ -146,4 +145,25 @@ alana
     background-color: rgb(252, 248, 233);
     color: rgb(43, 0, 9);
     border-radius: 20px;  
+}
+
+
+.display-section{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.display_text{
+    text-align: justify;
+    background-color: rgb(252, 248, 233);
+    color: rgb(43, 0, 9);
+    border-radius: 20px;  
+}
+
+.display-example{
+    background-color: rgb(252, 248, 233);
+}
+
+.titulo_display{
+    font-size: 25px;
 }
