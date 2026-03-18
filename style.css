@@ -135,19 +135,19 @@ body {
 }
 
 .table_application {
-    border-radius: 10px;
-    background-color: rgb(252, 248, 233);
-    width: fit-content;
-    margin: auto;
-    display: table;
+  border-radius: 10px;
+  background-color: rgb(252, 248, 233);
+  width: fit-content;
+  margin: auto;
+  display: table;
 }
 
 .inline_flex_application {
-    border-radius: 10px;
-    background-color: rgb(252, 248, 233);
-    width: fit-content;
-    margin:  auto;
-    display: inline-flex;
+  border-radius: 10px;
+  background-color: rgb(252, 248, 233);
+  width: fit-content;
+  margin: auto;
+  display: inline-flex;
 }
 
 .row {
@@ -162,12 +162,12 @@ body {
 }
 
 .grid_application {
-    border-radius: 10px;
-    background-color: rgb(252, 248, 233);
-    width: fit-content;
-    margin:  auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  border-radius: 10px;
+  background-color: rgb(252, 248, 233);
+  width: fit-content;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .inline_grid_application {
@@ -212,13 +212,13 @@ body {
   grid-template-columns: repeat(2, 2fr);
 }
 
-.block_flow-root_application{
-    padding: 5px;
-    border-radius: 10px;
-    background-color: rgb(252, 248, 233);
-    width: fit-content;
-    margin: auto;
-    margin-top: 10px;
+.block_flow-root_application {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(252, 248, 233);
+  width: fit-content;
+  margin: auto;
+  margin-top: 10px;
 }
 
 .box1 {
@@ -235,8 +235,8 @@ body {
   margin: 10px;
 }
 
-.block_flow-root{
-    display: block flow-root;
+.block_flow-root {
+  display: block flow-root;
 }
 
 .inline-flow span {
@@ -285,14 +285,23 @@ body {
   border-radius: 5px;
 }
 
-.image_code{
-    align-self: flex-start;
-    color: rgb(252, 248, 233);
+.image_code {
+  align-self: flex-start;
+  color: rgb(252, 248, 233);
 }
 
-.box3{
-    padding: 20px;
-    background: rgb(252, 248, 233);
-    margin: 10px;
-    border-radius: 10px;
+.box3 {
+  padding: 20px;
+  background: rgb(252, 248, 233);
+  margin: 10px;
+  border-radius: 10px;
+}
+
+footer {
+  border-radius: 10px;
+  background-color: rgb(252, 248, 233);
+  width: fit-content;
+  margin: 0 auto;
+  display: grid;
+
 }
