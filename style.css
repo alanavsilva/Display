@@ -74,6 +74,7 @@ body {
 }
 
 .box {
+border: 2px solid#333;
   padding: 20px;
   background: rgb(164, 203, 215);
   margin: 10px;
@@ -157,13 +158,6 @@ body {
   grid-template-columns: repeat(2, 2fr);
 }
 
-.box {
-  border: 2px solid #333;
-  padding: 10px;
-  margin: 10px;
-  color: white;
-}
-
 .inline-flow span {
   display: inline;
   padding: 5px;
@@ -206,4 +200,8 @@ body {
   color: black;
   padding: 5px;
   margin-right: 10px;
+}
+
+.image_code{
+    align-self: flex-start;
 }
