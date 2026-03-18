@@ -58,6 +58,13 @@ body {
   color: rgb(252, 248, 233);
 }
 
+.display_example_grid_flex {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .flow-root_application {
   border-radius: 10px;
   background-color: rgb(252, 248, 233);
