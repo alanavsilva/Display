@@ -55,15 +55,23 @@ body {
     margin: 20px;
 }
 
+.display_example_grid_flex h4,
 .display_example h4{
     color: rgb(252, 248, 233);
+}
+
+.display_example_grid_flex {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .flow-root_application {
     border-radius: 10px;
     background-color: rgb(252, 248, 233);
     width: fit-content;
-    margin: 0 auto;
+    margin: auto;
     display: flow-root;
 }
 
@@ -79,7 +87,7 @@ body {
     border-radius: 10px;
     background-color: rgb(252, 248, 233);
     width: fit-content;
-    margin: 0 auto;
+    margin: auto;
     display: table;
 }
 
@@ -87,7 +95,7 @@ body {
     border-radius: 10px;
     background-color: rgb(252, 248, 233);
     width: fit-content;
-    margin: 0 auto;
+    margin:auto;
     display: inline-flex;
 }
 
@@ -106,7 +114,7 @@ body {
     border-radius: 10px;
     background-color: rgb(252, 248, 233);
     width: fit-content;
-    margin: 0 auto;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -115,11 +123,9 @@ body {
     border-radius: 10px;
     background-color: rgb(252, 248, 233);
     width: fit-content;
-    margin: 0 auto;
     display: inline-grid;
     grid-template-columns: auto auto;
     gap: 10px;
-
 }
 
 .block_flow_application{
@@ -211,4 +217,8 @@ body {
   color: black;
   padding: 5px;
   margin-right: 10px;
+}
+
+.image_code{
+    align-self: flex-start;
 }
