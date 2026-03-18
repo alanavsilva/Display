@@ -71,6 +71,7 @@ body {
     padding: 20px;
     background: rgb(164, 203, 215);
     margin: 10px;
+    border: 2px solid #333;
     border-radius: 10px;
 }
 
@@ -152,10 +153,33 @@ body {
     grid-template-columns: repeat(2, 2fr);
 }
 
-.box {
-    border: 2px solid #333;
-    padding: 10px;
-    margin: 10px;
+.block_flow-root_application{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(252, 248, 233);
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 3px;
+}
+
+.box1 {
+  background: rgb(164, 203, 215);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid #333;
+}
+
+.box2 {
+  background: rgb(164, 203, 215);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid #333;
+}
+
+.block_flow-root{
+    display: block flow-root;
 }
 
 .inline-flow {
@@ -174,4 +198,17 @@ body {
   grid-template-columns: auto auto;
   gap: 10px;
   background: #c2ffc2;
+}
+
+.inline-flow-root {
+    display: inline flow-root;
+    background: #f9c2ff;
+}
+
+.float{
+  float: left;
+  background: pink; 
+  color: black;
+  padding: 5px;
+  margin-right: 10px;
 }
