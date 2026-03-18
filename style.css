@@ -175,3 +175,16 @@ body {
   gap: 10px;
   background: #c2ffc2;
 }
+
+.inline-flow-root {
+    display: inline flow-root;
+    background: #f9c2ff;
+}
+
+.float{
+  float: left;
+  background: pink; 
+  color: black;
+  padding: 5px;
+  margin-right: 10px;
+}
