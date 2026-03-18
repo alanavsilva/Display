@@ -1,78 +1,83 @@
 .fixo {
-    position: fixed;
-    left: 0%;
-    top: 0%;
-    background-color: rgb(252, 248, 233);
-    color: rgb(43, 0, 9);
-    display: block;
-    width: 100%;
-    text-align: center;
-    border-bottom: 2px solid rgb(43, 0, 9);
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  background-color: rgb(252, 248, 233);
+  color: rgb(43, 0, 9);
+  display: block;
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid rgb(43, 0, 9);
 }
 
 p {
-    margin-left: 15px;
-    margin-right: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
-
 body {
-    background-color: rgb(43, 0, 9);
-    margin: 0%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(43, 0, 9);
+  margin: 0%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .block {
-    display: block;
+  display: block;
 }
 
 .display {
-    margin-bottom: 0%;
-    margin-left: 15px;
-    text-align: justify;
-    background-color: rgb(252, 248, 233);
-    color: rgb(43, 0, 9);
-    border-radius: 20px;
+  margin-bottom: 0%;
+  margin-left: 15px;
+  text-align: justify;
+  background-color: rgb(252, 248, 233);
+  color: rgb(43, 0, 9);
+  border-radius: 20px;
 }
 
 .display-section {
-    margin: 35px;
+  margin: 35px;
 }
 
 .titulo_display {
-    font-size: 25px;
-    margin-top: 0;
+  font-size: 25px;
+  margin-top: 0;
 }
 
 .display_text {
-    background-color: rgb(252, 248, 233);
-    color: rgb(43, 0, 9);
-    border-radius: 20px;
-    padding: 1px;
+  background-color: rgb(252, 248, 233);
+  color: rgb(43, 0, 9);
+  border-radius: 20px;
+  padding: 1px;
 }
 
 .display_example {
-    margin: 20px;
+  margin: 20px;
 }
 
-.display_example h4{
-    color: rgb(252, 248, 233);
+.display_example h4 {
+  color: rgb(252, 248, 233);
+}
+
+.display_example_grid_flex {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .flow-root_application {
-    border-radius: 10px;
-    background-color: rgb(252, 248, 233);
-    width: fit-content;
-    margin: 0 auto;
-    display: flow-root;
+  border-radius: 10px;
+  background-color: rgb(252, 248, 233);
+  width: fit-content;
+  margin: 0 auto;
+  display: flow-root;
 }
 
 .box {
-    padding: 20px;
-    background: rgb(164, 203, 215);
-    margin: 10px;
-    border: 2px solid #333;
-    border-radius: 10px;
+  padding: 20px;
+  background: rgb(164, 203, 215);
+  margin: 10px;
+  border-radius: 10px;
 }
 
 .table_application {
@@ -89,17 +94,30 @@ body {
     width: fit-content;
     margin:  auto;
     display: inline-flex;
+  border-radius: 10px;
+  background-color: rgb(252, 248, 233);
+  width: fit-content;
+  margin: 0 auto;
+  display: table;
+}
+
+.inline_flex_application {
+  border-radius: 10px;
+  background-color: rgb(252, 248, 233);
+  width: fit-content;
+  margin: 0 auto;
+  display: inline-flex;
 }
 
 .row {
-    display: table-row;
-    background-color: rgb(164, 203, 215);
+  display: table-row;
+  background-color: rgb(164, 203, 215);
 }
 
 .col {
-    display: table-cell;
-    padding: 10px;
-    border: 1px solid #ccc;
+  display: table-cell;
+  padding: 10px;
+  border: 1px solid #ccc;
 }
 
 .grid_application {
@@ -120,95 +138,103 @@ body {
     grid-template-columns: auto auto;
     gap: 10px;
 
+  border-radius: 10px;
+  background-color: rgb(252, 248, 233);
+  width: fit-content;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.block_flow_application{
-    padding: 1px;
-    border-radius: 10px;
-    background-color: rgb(252, 248, 233);
-    width: fit-content;
-    margin: auto;
-    margin-bottom: 3px;
-    display: block flow;
+.inline_grid_application {
+  border-radius: 10px;
+  background-color: rgb(252, 248, 233);
+  width: fit-content;
+  margin: 0 auto;
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
 }
 
-.block_flex_application{
-    padding: 1px;
-    border-radius: 10px;
-    background-color: rgb(252, 248, 233);
-    width: fit-content;
-    margin: auto;
-    margin-bottom: 3px;
-    display: block flex;
+.block_flow_application {
+  padding: 1px;
+  border-radius: 10px;
+  background-color: rgb(252, 248, 233);
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 3px;
+  display: block flow;
 }
 
-.block_grid_application{
-    padding: 1px;
-    border-radius: 10px;
-    background-color: rgb(252, 248, 233);
-    width: fit-content;
-    margin: auto;
-    margin-bottom: 3px;
-    display: block grid;
-    grid-template-columns: repeat(2, 2fr);
+.block_flex_application {
+  padding: 1px;
+  border-radius: 10px;
+  background-color: rgb(252, 248, 233);
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 3px;
+  display: block flex;
 }
 
-.block_flow-root_application{
-    padding: 5px;
-    border-radius: 10px;
-    background-color: rgb(252, 248, 233);
-    width: fit-content;
-    margin: auto;
-    margin-bottom: 3px;
+.block_grid_application {
+  padding: 1px;
+  border-radius: 10px;
+  background-color: rgb(252, 248, 233);
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 3px;
+  display: block grid;
+  grid-template-columns: repeat(2, 2fr);
 }
 
-.box1 {
-  background: rgb(164, 203, 215);
-  border-radius: 5px;
-  padding: 20px;
-  margin: 10px;
+.box {
   border: 2px solid #333;
-}
-
-.box2 {
-  background: rgb(164, 203, 215);
-  border-radius: 5px;
-  padding: 20px;
+  padding: 10px;
   margin: 10px;
-  border: 2px solid #333;
+  color: white;
 }
 
-.block_flow-root{
-    display: block flow-root;
-}
-
-.inline-flow {
-    display: inline;
-    background: #f9c2ff;
+.inline-flow span {
+  display: inline;
+  padding: 5px;
+  background: #f9c2ff;
 }
 
 .inline-flex {
   display: inline-flex;
   gap: 10px;
-  background: #c2f0ff;
+}
+
+.inline-flex div {
+  background: rgb(10, 161, 211);
+  padding: 5px;
+  border-radius: 20px;
+  color: white;
 }
 
 .inline-grid {
   display: inline-grid;
   grid-template-columns: auto auto;
   gap: 10px;
+}
+
+.inline-grid div {
   background: #c2ffc2;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
 }
 
 .inline-flow-root {
-    display: inline flow-root;
-    background: #f9c2ff;
+  display: inline flow-root;
+  background: #f9c2ff;
 }
 
-.float{
+.float {
   float: left;
-  background: pink; 
+  background: pink;
   color: black;
   padding: 5px;
   margin-right: 10px;
 }
+
