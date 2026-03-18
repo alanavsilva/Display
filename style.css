@@ -74,7 +74,6 @@ body {
 }
 
 .box {
-border: 2px solid#333;
   padding: 20px;
   background: rgb(164, 203, 215);
   margin: 10px;
@@ -82,19 +81,6 @@ border: 2px solid#333;
 }
 
 .table_application {
-    border-radius: 10px;
-    background-color: rgb(252, 248, 233);
-    width: fit-content;
-    margin: auto;
-    display: table;
-}
-
-.inline_flex_application {
-    border-radius: 10px;
-    background-color: rgb(252, 248, 233);
-    width: fit-content;
-    margin:  auto;
-    display: inline-flex;
   border-radius: 10px;
   background-color: rgb(252, 248, 233);
   width: fit-content;
@@ -122,23 +108,6 @@ border: 2px solid#333;
 }
 
 .grid_application {
-    border-radius: 10px;
-    background-color: rgb(252, 248, 233);
-    width: fit-content;
-    margin:  auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.inline_grid_application {
-    border-radius: 10px;
-    background-color: rgb(252, 248, 233);
-    width: fit-content;
-    margin:  auto;
-    display: inline-grid;
-    grid-template-columns: auto auto;
-    gap: 10px;
-
   border-radius: 10px;
   background-color: rgb(252, 248, 233);
   width: fit-content;
@@ -188,10 +157,38 @@ border: 2px solid#333;
   grid-template-columns: repeat(2, 2fr);
 }
 
+.block_flow-root_application{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(252, 248, 233);
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.box1 {
+  background: rgb(164, 203, 215);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.box2 {
+  background: rgb(164, 203, 215);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.block_flow-root{
+    display: block flow-root;
+}
+
 .inline-flow span {
   display: inline;
   padding: 5px;
-  background: rgb(10, 159, 204);
+  background: rgb(164, 203, 215);
+  border-radius: 5px;
 }
 
 .inline-flex {
@@ -200,9 +197,9 @@ border: 2px solid#333;
 }
 
 .inline-flex div {
-  background: rgb(10, 161, 211);
+  background: rgb(164, 203, 215);
   padding: 5px;
-  border-radius: 20px;
+  border-radius: 5px;
   color: rgb(0, 0, 0);
 }
 
@@ -213,10 +210,10 @@ border: 2px solid#333;
 }
 
 .inline-grid div {
-  background: rgb(9, 23, 226);
+  background: rgb(164, 203, 215);
   padding: 5px;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .inline-flow-root {
@@ -226,12 +223,21 @@ border: 2px solid#333;
 
 .float {
   float: left;
-  background: rgb(252, 248, 233);
+  background: rgb(164, 203, 215);
   color: black;
   padding: 5px;
   margin-right: 10px;
+  border-radius: 5px;
 }
 
 .image_code{
     align-self: flex-start;
+    color: rgb(252, 248, 233);
+}
+
+.box3{
+    padding: 20px;
+    background: rgb(252, 248, 233);
+    margin: 10px;
+    border-radius: 10px;
 }
