@@ -82,6 +82,19 @@ border: 2px solid#333;
 }
 
 .table_application {
+    border-radius: 10px;
+    background-color: rgb(252, 248, 233);
+    width: fit-content;
+    margin: auto;
+    display: table;
+}
+
+.inline_flex_application {
+    border-radius: 10px;
+    background-color: rgb(252, 248, 233);
+    width: fit-content;
+    margin:  auto;
+    display: inline-flex;
   border-radius: 10px;
   background-color: rgb(252, 248, 233);
   width: fit-content;
@@ -109,6 +122,23 @@ border: 2px solid#333;
 }
 
 .grid_application {
+    border-radius: 10px;
+    background-color: rgb(252, 248, 233);
+    width: fit-content;
+    margin:  auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.inline_grid_application {
+    border-radius: 10px;
+    background-color: rgb(252, 248, 233);
+    width: fit-content;
+    margin:  auto;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+
   border-radius: 10px;
   background-color: rgb(252, 248, 233);
   width: fit-content;
