@@ -461,34 +461,69 @@
         <div class="display-section">
             <div class="display_text">
 
-                <p class="titulo_display"> Display: inline flow
-                    
+                <p class="titulo_display"> Display: inline flow </p>
+                <p>
+                    O inline flow faz com que elementos (como <span>) se organizem lado a lado horizontalmente,
+                    sem quebrar a linha, ocupando apenas o espaço necessário do seu próprio conteúdo dentro do texto.
                 </p>
 
             </div>
-
-        </div>
-
-          <div class="display-section">
-            <div class="display_text">
-
-                <p class="titulo_display"> Display: inline grid
-                    
-                </p>
-
+            <div class="box inline-flow">
+                <span>Item1</span>
+                <span>Item2</span>
             </div>
-
         </div>
 
          <div class="display-section">
             <div class="display_text">
 
-                <p class="titulo_display"> Display: inline flow-root
-                    
+                <p class="titulo_display"> Display: inline flex</p>
+                <p>
+                    A ideia principal é dar ao contêiner a capacidade de alterar a largura/altura (e a ordem) de seus itens para melhor
+                    preencher o espaço disponível (principalmente para se adaptar a todos os tipos de dispositivos de exibição e tamanhos 
+                    de tela). Um contêiner flexível expande os itens para preencher o espaço livre disponível ou os reduz para evitar que transbordem.
                 </p>
 
             </div>
+            <div class="box inline-flex">
+                <div>Flex 1</div>
+                <div>Flex 2</div>
+            </div>
+        </div>
 
+          <div class="display-section">
+            <div class="display_text">
+
+                <p class="titulo_display"> Display: inline grid </p>
+                <p>
+                    O display: inline-grid no CSS faz com que o elemento fique na mesma linha que outros (como texto), 
+                    mas organize seu conteúdo interno em forma de grade (linhas e colunas), permitindo melhor controle de layout e 
+                    espaçamento.
+
+                </p>
+
+            </div>
+            <div class="box inline-grid">
+                <div>Grid 1</div>
+                <div>Grid 2</div>
+            </div>
+        </div>
+
+         <div class="display-section">
+            <div class="display_text">
+
+                <p class="titulo_display"> Display: inline flow-root </p>
+                <p>
+                    O display: inline flow-root no CSS faz com que o elemento se comporte como um elemento em linha (inline), 
+                    mas crie um novo contexto de formatação de bloco (flow-root) internamente. Isso significa que ele controla melhor o 
+                    fluxo do conteúdo dentro dele, evitando problemas como elementos “escapando” (por exemplo, com float) e mantendo o 
+                    layout mais organizado.
+                </p>
+
+            </div>
+            <div class="box inline-flow-root">
+                
+            </div>
         </div>
 
     </main>
