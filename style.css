@@ -23,7 +23,61 @@ body {
 
 .block {
   display: block;
+  background-color: lightblue;
+  margin: 10px 0;
+  padding: 10px;
 }
+
+
+.inline {
+  display: inline;
+  background-color: lightgreen;
+  padding: 5px;
+}
+
+.inline-block {
+  display: inline-block;
+  background-color: lightcoral;
+  width: 120px;
+  height: 80px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.item {
+  background-color: steelblue;
+  color: white;
+  margin: 5px;
+  padding: 20px;
+}
+
+
+.inline-flex-container {
+  display: inline-flex;
+  background-color: lightyellow;
+  padding: 10px;
+}
+
+.item {
+  background-color: orange;
+  margin: 5px;
+  padding: 15px;
+}
+
+
+
+
+
+
+
+
+
 
 .display {
   margin-bottom: 0%;
