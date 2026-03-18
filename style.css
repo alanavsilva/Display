@@ -71,6 +71,7 @@ body {
     padding: 20px;
     background: rgb(164, 203, 215);
     margin: 10px;
+    border: 2px solid #333;
     border-radius: 10px;
 }
 
@@ -166,6 +167,7 @@ body {
   border-radius: 5px;
   padding: 20px;
   margin: 10px;
+  border: 2px solid #333;
 }
 
 .box2 {
@@ -173,9 +175,40 @@ body {
   border-radius: 5px;
   padding: 20px;
   margin: 10px;
+  border: 2px solid #333;
 }
 
 .block_flow-root{
     display: block flow-root;
 }
 
+.inline-flow {
+    display: inline;
+    background: #f9c2ff;
+}
+
+.inline-flex {
+  display: inline-flex;
+  gap: 10px;
+  background: #c2f0ff;
+}
+
+.inline-grid {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  background: #c2ffc2;
+}
+
+.inline-flow-root {
+    display: inline flow-root;
+    background: #f9c2ff;
+}
+
+.float{
+  float: left;
+  background: pink; 
+  color: black;
+  padding: 5px;
+  margin-right: 10px;
+}
